@@ -19,10 +19,10 @@ This is a group project, in groupof two. We are supposed to create one pagewebsi
 
 
 ## prerequisities 
-### Somehoe Animation has to be part of this project and the music should be created in proper ways. 
+### Somehow Animation has to be part of this project and the music should be created in proper ways. 
 
 ## Considerations
-###There must be Animations, SVG icons, and music drag and drop. 
+### There must be Animations, SVG icons, and music drag and drop. 
 
 ## Author  
 Sarthak  Shah,
