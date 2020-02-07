@@ -1,1 +1,2 @@
-# ruben_sarthak_musicmixer
+# Musuc Mixer Project :design:
+![Website design ](/images/readme_logo.png)
