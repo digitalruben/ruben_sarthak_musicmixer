@@ -1,3 +1,187 @@
-body {
-	background-color: blue;
+.hidden { display: none; }
+
+body{
+	font-family: "Average Sans", Helvetica, Arial, sans-serif;
+	background-color: dimgray;
 }
+
+p { line-height: 20px; }
+a { text-decoration: none; }
+
+#siteContainer {
+	margin: 0 auto;
+	width: 1050px;
+}
+
+/* ------MUSIC MIXER----------*/
+
+.mixercontainer {
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	background-color: #383838;
+	margin-top: 100px;
+	border-radius: 50px;
+	height: 835px;
+	-webkit-box-shadow: 0px -1px 10px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px -1px 10px 2px rgba(0,0,0,1);
+	box-shadow: 0px -1px 10px 2px rgba(0,0,0,1);
+}
+
+
+.MixerDescription {
+	display: flex;
+	flex-direction: column;
+}
+
+.MixerDescription h2 {
+	margin-top: 50px;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+}
+
+.MixerDescription p {
+	font-size: 2.2em;
+	color: lightgrey;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#iconSelect {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.icon {
+	width: 150px;
+	height: 100px;
+	cursor: pointer;
+}
+
+#soundtitle {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 0 0 0;
+}
+
+.soundtitletext {
+	width: 150px;
+	height: 50px;
+	border: solid 3px white;
+	padding: 5px 0 5px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.soundtitletext p {
+	font-size: 1.5em;
+	font-weight: 900;
+	color: white;
+}	
+
+#stp0, #stp1, #stp2, #stp3 {
+	width: 150px;
+	height: 150px;
+}
+
+#faded0, #faded1, #faded2, #faded3 {
+	width: 150px;
+	height: 150px;
+}
+
+#slimshady0, #slimshady1, #slimshady2, #slimshady3 {
+	width: 150px;
+	height: 150px;
+}
+
+#eminem0, #eminem1, #eminem2, #eminem3 {
+	width: 150px;
+	height: 150px;
+}
+	
+#icons {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: -20px;
+}
+
+#iconDisplay {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.drop-zone {
+	height: 250px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../images/disk.png");
+}
+
+.drop-zone img {
+	cursor: default;
+}	
+
+#resetbuttoncont {
+	display: flex;
+	align-items: center;
+	width: 200PX;
+	padding-top: 130px;
+}
+
+#resetButton {
+	background-color: #333;
+	width: 160px;
+	height: 60px;
+	color: #fff;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: 1.6em;
+	cursor: pointer;
+}
+
+.centercontrols {
+	height: 250px;
+	width: 500px;
+	border-radius: 10px;
+	background-image: url("../images/panel.png");
+	}
+
+#iconSelector {
+	margin-left: 20px;
+}
+
+#iconSelector img {
+	width: 200px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+#iconStore {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+/*----ANIMATION------*/
+.DiskRotation {
+	animation-name: DiskRotation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+@keyframes DiskRotation {
+	from {
+			-webkit-transform: rotate(0deg);
+	}
+	to {
+			-webkit-transform: rotate(359deg);
+	}
+}
+
